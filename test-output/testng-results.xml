@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-15T22:04:13 EEST" name="Login Suite" finished-at="2024-07-15T22:04:49 EEST" duration-ms="35187">
+    <groups>
+    </groups>
+    <test started-at="2024-07-15T22:04:13 EEST" name="Login Tests" finished-at="2024-07-15T22:04:49 EEST" duration-ms="35187">
+      <class name="java_project.LoginTest">
+        <test-method is-config="true" signature="setUpExtent()[pri:0, instance:java_project.LoginTest@6150c3ec]" started-at="2024-07-15T22:04:13 EEST" name="setUpExtent" finished-at="2024-07-15T22:04:14 EEST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpExtent -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:java_project.LoginTest@6150c3ec]" started-at="2024-07-15T22:04:14 EEST" name="setUp" finished-at="2024-07-15T22:04:19 EEST" duration-ms="5664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyPassword()[pri:0, instance:java_project.LoginTest@6150c3ec]" started-at="2024-07-15T22:04:19 EEST" name="testEmptyPassword" finished-at="2024-07-15T22:04:23 EEST" duration-ms="3422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:java_project.LoginTest@6150c3ec]" started-at="2024-07-15T22:04:23 EEST" name="tearDown" finished-at="2024-07-15T22:04:23 EEST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:java_project.LoginTest@6150c3ec]" started-at="2024-07-15T22:04:23 EEST" name="setUp" finished-at="2024-07-15T22:04:29 EEST" duration-ms="5555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyUsername()[pri:0, instance:java_project.LoginTest@6150c3ec]" started-at="2024-07-15T22:04:29 EEST" name="testEmptyUsername" finished-at="2024-07-15T22:04:29 EEST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:java_project.LoginTest@6150c3ec]" started-at="2024-07-15T22:04:29 EEST" name="tearDown" finished-at="2024-07-15T22:04:29 EEST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:java_project.LoginTest@6150c3ec]" started-at="2024-07-15T22:04:29 EEST" name="setUp" finished-at="2024-07-15T22:04:32 EEST" duration-ms="2673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidCredentials()[pri:0, instance:java_project.LoginTest@6150c3ec]" started-at="2024-07-15T22:04:32 EEST" name="testInvalidCredentials" finished-at="2024-07-15T22:04:35 EEST" duration-ms="2928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:java_project.LoginTest@6150c3ec]" started-at="2024-07-15T22:04:35 EEST" name="tearDown" finished-at="2024-07-15T22:04:35 EEST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:java_project.LoginTest@6150c3ec]" started-at="2024-07-15T22:04:35 EEST" name="setUp" finished-at="2024-07-15T22:04:41 EEST" duration-ms="5161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFieldsPresence()[pri:0, instance:java_project.LoginTest@6150c3ec]" started-at="2024-07-15T22:04:41 EEST" name="testLoginFieldsPresence" finished-at="2024-07-15T22:04:41 EEST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFieldsPresence -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:java_project.LoginTest@6150c3ec]" started-at="2024-07-15T22:04:41 EEST" name="tearDown" finished-at="2024-07-15T22:04:42 EEST" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:java_project.LoginTest@6150c3ec]" started-at="2024-07-15T22:04:42 EEST" name="setUp" finished-at="2024-07-15T22:04:47 EEST" duration-ms="5413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidCredentials()[pri:0, instance:java_project.LoginTest@6150c3ec]" started-at="2024-07-15T22:04:47 EEST" name="testValidCredentials" finished-at="2024-07-15T22:04:48 EEST" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:java_project.LoginTest@6150c3ec]" started-at="2024-07-15T22:04:48 EEST" name="tearDown" finished-at="2024-07-15T22:04:48 EEST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownExtent()[pri:0, instance:java_project.LoginTest@6150c3ec]" started-at="2024-07-15T22:04:48 EEST" name="tearDownExtent" finished-at="2024-07-15T22:04:49 EEST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtent -->
+      </class> <!-- java_project.LoginTest -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- Login Suite -->
+</testng-results>
