@@ -18,7 +18,7 @@ public class TestBase {
     @BeforeClass
     public void setUpExtent() {
         try {
-            ExtentSparkReporter sparkReporter = new ExtentSparkReporter("extentReport.html"); // Specify report file name if needed
+            ExtentSparkReporter sparkReporter = new ExtentSparkReporter("extentReport.html");
             extent = new ExtentReports();
             extent.attachReporter(sparkReporter);
             System.out.println("Extent report setup completed.");
